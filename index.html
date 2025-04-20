@@ -16,13 +16,6 @@
       padding: 20px;
       text-align: center;
     }
-    header p {
-      color: #ffe6f0;
-      font-size: 16px;
-      max-width: 800px;
-      margin: 10px auto 0;
-      padding: 0 20px;
-    }
     nav {
       background-color: #ff66b3;
       text-align: center;
@@ -43,8 +36,8 @@
       display: block;
     }
     .image-container {
-      width: 300px;
-      height: 300px;
+      width: 400px;
+      height: 400px;
       margin: 20px auto;
       overflow: hidden;
       border-radius: 8px;
@@ -66,7 +59,6 @@
 
   <header>
     <h1>Holi - Festival of Colors</h1>
-    
   </header>
 
   <nav>
@@ -78,9 +70,8 @@
   <!-- Home Section -->
   <div id="home" class="section active">
     <h2>Welcome to the Holi Festival!</h2>
-    <p>Holi is one of the most joyful and vibrant festivals celebrated across India and in many parts of the world. Known as the Festival of Colors, Holi brings people together to celebrate love, unity, and the arrival of spring.</p>
-    <p>The air is filled with laughter and joy as people smear colorful powders on each other, forgetting all worries. It’s a celebration where social boundaries melt away, and everyone is equal in the spirit of happiness and harmony.</p>
-    <p>Whether in a small village or a bustling city, Holi transforms every street into a colorful canvas of togetherness, music, and dance. It’s a time when hearts are full, spirits are high, and memories are made.</p>
+    <p>Holi is one of the most vibrant festivals celebrated in India. It marks the arrival of spring and the end of winter. People celebrate by throwing colors, dancing to music, and sharing sweets. It’s a time to forgive and reconnect with others. Holi truly spreads joy and unity among people of all ages.</p>
+    <p>Families, friends, and neighbors join in the festivities regardless of age or background. Streets become a living canvas as participants toss vibrant powders and splash colored water. Many communities organize live music and dance events, creating a carnival-like atmosphere. Even outside of India, Holi festivals have become popular cultural gatherings, inviting everyone to experience its magic. Schools and workplaces often host special programs where traditional songs and games bring people closer together.</p>
     <div class="image-container">
       <img src="holi1.jpg" alt="Holi Celebration">
     </div>
@@ -89,17 +80,18 @@
   <!-- About Section -->
   <div id="about" class="section">
     <h2>About Holi</h2>
-    <p>Holi has deep roots in Indian mythology and tradition. Celebrated on the full moon day in the month of Phalguna (March), it marks the victory of good over evil and the change of seasons. The festival's origin lies in several legends, including the tale of Prahlad and Holika, which symbolizes faith and righteousness triumphing over tyranny.</p>
-    <p>The burning of Holika on the eve of Holi is a ritual that reminds people to let go of negativity and start fresh. Bonfires are lit, songs are sung, and communities gather to reflect and rejoice.</p>
-    <p>Another popular legend is that of Radha and Krishna, whose divine love is celebrated during Holi. Krishna, known for his playful spirit, colored Radha’s face — a moment now symbolized through the vibrant hues of Holi. It’s this mix of devotion, joy, and mischief that makes Holi so unique and beloved.</p>
+    <p>Holi has roots in ancient Hindu mythology, especially the story of Prahlad and Holika. The night before Holi, people light bonfires in a ritual called Holika Dahan. It symbolizes the victory of good over evil and the burning away of negative energy. Holi usually takes place in March, on the full moon day. It is widely celebrated across India and even in other parts of the world.</p>
+    <p>Beyond this central legend, Holi’s traditions vary by region. In Bengal, it’s called Dol Jatra, marked by colorful processions and devotional songs for Lord Krishna. In Punjab, the Sikh community celebrates Hola Mohalla with martial arts displays and kirtan. Historical records show Holi celebrations dating back over a thousand years in royal courts. Today, it links India’s rich heritage with a modern spirit of inclusivity and fun.</p>
+    <div class="image-container">
+      <img src="holi3.jpg" alt="Holi celebration">
+    </div>
   </div>
 
   <!-- Celebration Section -->
   <div id="celebration" class="section">
     <h2>How Holi is Celebrated</h2>
-    <p>Celebrations begin with Holika Dahan, where people gather around the fire to perform rituals and pray for the destruction of evil. The next morning, people of all ages step out to play Holi with colors, water balloons, and pichkaris (water guns).</p>
-    <p>It’s a day filled with street music, traditional drumming (dhol), folk dances, and singing. Homes welcome guests with delicious sweets and snacks. Gujiya, malpua, dahi bhalla, and thandai are some of the festive favorites enjoyed by all.</p>
-    <p>Holi goes beyond fun—it fosters friendship, forgiveness, and unity. In schools, offices, and neighborhoods, people come together to spread cheer. In recent years, eco-friendly Holi with herbal colors and dry powder has also gained popularity, promoting safe and sustainable celebrations.</p>
+    <p>On Holi, people gather in open areas to smear each other with colorful powders. Water balloons and pichkaris (water guns) add to the excitement. Traditional sweets like Gujiya and refreshing drinks like Thandai are shared among everyone. Music, drums, and folk dances fill the streets with energy. The festival fosters happiness, forgiveness, and a sense of renewal.</p>
+    <p>Community fairs (melas) often spring up, featuring local crafts, dance performances, and street food stalls. Many now choose eco‑friendly or herbal colors to protect skin and the environment. Some regions observe a “dry” Holi to conserve water, while others splash rain‑dance style celebrations. Both traditional and modern music amplify the festive vibe. The day ends with prayers for health, prosperity, and lasting friendships.</p>
     <div class="image-container">
       <img src="holi2.jpg" alt="Holi in Vrindavan">
     </div>
@@ -111,8 +103,7 @@
 
   <script>
     function showSection(sectionId) {
-      const sections = document.querySelectorAll('.section');
-      sections.forEach(section => section.classList.remove('active'));
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       document.getElementById(sectionId).classList.add('active');
     }
   </script>
