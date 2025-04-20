@@ -16,6 +16,13 @@
       padding: 20px;
       text-align: center;
     }
+    header p {
+      color: #ffe6f0;
+      font-size: 16px;
+      max-width: 800px;
+      margin: 10px auto 0;
+      padding: 0 20px;
+    }
     nav {
       background-color: #ff66b3;
       text-align: center;
@@ -35,11 +42,17 @@
     .section.active {
       display: block;
     }
-    img {
-      width: 90%;
-      max-width: 500px;
+    .image-container {
+      width: 300px;
+      height: 300px;
+      margin: 20px auto;
+      overflow: hidden;
       border-radius: 8px;
-      margin-top: 15px;
+    }
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     footer {
       text-align: center;
@@ -53,6 +66,14 @@
 
   <header>
     <h1>Holi - Festival of Colors</h1>
+    <p>
+      Holi is one of the most exciting and widely celebrated festivals in India, cherished by people of all ages and communities. 
+      It signifies the triumph of good over evil, the end of winter, and the arrival of spring. 
+      This festival brings joy, color, and positivity into everyone’s lives. 
+      Families gather, friends reunite, and strangers become companions in the spirit of togetherness. 
+      From the playful splashes of color to the delicious sweets, every part of Holi is filled with energy and tradition. 
+      It is a time when hearts are light, spirits are high, and joy knows no bounds.
+    </p>
   </header>
 
   <nav>
@@ -64,23 +85,31 @@
   <!-- Home Section -->
   <div id="home" class="section active">
     <h2>Welcome to the Holi Festival!</h2>
-    <p>Holi is one of the most vibrant festivals celebrated in India. It is known as the Festival of Colors and love.</p>
-    <img src="holi1.jpg" alt="Holi Celebration">
+    <p>Holi is one of the most joyful and vibrant festivals celebrated across India and in many parts of the world. Known as the Festival of Colors, Holi brings people together to celebrate love, unity, and the arrival of spring.</p>
+    <p>The air is filled with laughter and joy as people smear colorful powders on each other, forgetting all worries. It’s a celebration where social boundaries melt away, and everyone is equal in the spirit of happiness and harmony.</p>
+    <p>Whether in a small village or a bustling city, Holi transforms every street into a colorful canvas of togetherness, music, and dance. It’s a time when hearts are full, spirits are high, and memories are made.</p>
+    <div class="image-container">
+      <img src="holi1.jpg" alt="Holi Celebration">
+    </div>
   </div>
 
   <!-- About Section -->
   <div id="about" class="section">
     <h2>About Holi</h2>
-    <p>Holi is a Hindu festival celebrated at the end of winter. It marks the arrival of spring and the victory of good over evil. It usually takes place in March.</p>
-    <p>The night before Holi, people light a bonfire called Holika Dahan to celebrate the burning of evil.</p>
+    <p>Holi has deep roots in Indian mythology and tradition. Celebrated on the full moon day in the month of Phalguna (March), it marks the victory of good over evil and the change of seasons. The festival's origin lies in several legends, including the tale of Prahlad and Holika, which symbolizes faith and righteousness triumphing over tyranny.</p>
+    <p>The burning of Holika on the eve of Holi is a ritual that reminds people to let go of negativity and start fresh. Bonfires are lit, songs are sung, and communities gather to reflect and rejoice.</p>
+    <p>Another popular legend is that of Radha and Krishna, whose divine love is celebrated during Holi. Krishna, known for his playful spirit, colored Radha’s face — a moment now symbolized through the vibrant hues of Holi. It’s this mix of devotion, joy, and mischief that makes Holi so unique and beloved.</p>
   </div>
 
   <!-- Celebration Section -->
   <div id="celebration" class="section">
     <h2>How Holi is Celebrated</h2>
-    <p>People throw colored powders and water at each other, dance to music, and enjoy sweets like Gujiya and Thandai.</p>
-    <p>Holi spreads joy, unity, and friendship across all ages and communities.</p>
-    <img src="holi2.jpg" alt="Holi in Vrindavan">
+    <p>Celebrations begin with Holika Dahan, where people gather around the fire to perform rituals and pray for the destruction of evil. The next morning, people of all ages step out to play Holi with colors, water balloons, and pichkaris (water guns).</p>
+    <p>It’s a day filled with street music, traditional drumming (dhol), folk dances, and singing. Homes welcome guests with delicious sweets and snacks. Gujiya, malpua, dahi bhalla, and thandai are some of the festive favorites enjoyed by all.</p>
+    <p>Holi goes beyond fun—it fosters friendship, forgiveness, and unity. In schools, offices, and neighborhoods, people come together to spread cheer. In recent years, eco-friendly Holi with herbal colors and dry powder has also gained popularity, promoting safe and sustainable celebrations.</p>
+    <div class="image-container">
+      <img src="holi2.jpg" alt="Holi in Vrindavan">
+    </div>
   </div>
 
   <footer>
